@@ -1,0 +1,86 @@
+.customer-info-content {
+	background-color: #fff;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+	padding: 100px 40px;
+	position: relative;
+	z-index: 1;
+}
+
+.customer-info-content input {
+	border: 1px solid #ffd000;
+	border-radius: .25rem;
+	padding: .375rem 1.75rem .375rem .75rem;
+	width: 100%;
+}
+
+.customer-info-item {
+	border: 1px solid #fff;
+	display: block;
+	float: left;
+	margin-right: 1%;
+	width: 19.2%;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	
+}
+
+.content-bg-1 {
+	background-image: url("http://localhost/SYS/assets/img/we-do/service1-img.png");
+}
+
+.content-bg-2 {
+	background-image: url("http://localhost/SYS/assets/img/we-do/service2-img.png");
+}
+
+.content-bg-3 {
+	background-image: url("http://localhost/SYS/assets/img/we-do/service3-img.png");
+}
+
+.single-activity-content {
+	background-position: center center;
+	background-size: cover;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.single-activity-content:hover .activity-content {
+	bottom: 0;
+}
+
+.activity-content {
+	background-color: rgba(0, 0, 0, 0.7);
+	bottom: -100%;
+	color: #fff;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	width: 100%;
+}
+
+.activity-content h3 {
+	color: #ffd000;
+	font-size: 22px;
+}
+
+.activity-content p {
+	margin: 15px 0 20px;
+}
+
+.activity-content a {
+	background-color: #ffd000;
+	border-radius: 2px;
+	color: #000;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 600;
+	padding: 8px 15px;
+}

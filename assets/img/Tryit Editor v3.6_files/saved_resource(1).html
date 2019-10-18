@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- saved from url=(0069)https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_html_blur -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+a:focus, a:active {
+  color: green;
+}
+</style>
+</head>
+<body contenteditable="false">
+
+<a id="myAnchor" href="https://www.w3schools.com/">Visit W3Schools.com</a>
+
+<p>Click the buttons to give focus and/or remove focus from the link above.</p>
+
+<input type="button" onclick="getfocus()" value="Get focus">
+<input type="button" onclick="losefocus()" value="Lose focus">
+
+<script>
+function getfocus() {
+var k=getElementById("myAnchor");
+  document.k.focus();
+}
+
+function losefocus() {
+  document.getElementById("myAnchor").blur();
+}
+</script>
+
+
+
+</body></html>
